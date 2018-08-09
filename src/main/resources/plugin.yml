@@ -1,0 +1,13 @@
+name: Test
+main: com.goodgaming.test.Main
+version: 0.0.1
+commands:
+  balance:
+    usage: /balance
+    description: Default balance command
+  eco:
+    usage: /eco give <player> <amount?
+    permission: testproject.command.eco
+permissions:
+  testproject.command.eco:
+    description: Allows the player to use the /eco give command
